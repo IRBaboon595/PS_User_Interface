@@ -233,7 +233,7 @@ void MainWindow::readData(void)
                                     }
                                     if(currentPowerUnit > 1)                                            //Second temp sensor for SHPPK PU
                                     {
-                                        if(puState & 0x00000020)
+                                        if(puState & 0x00000100)
                                         {
                                             ui->tempSensFrame_1_1->setStyleSheet("background-color: rgb(255, 0, 0)");
                                         }
