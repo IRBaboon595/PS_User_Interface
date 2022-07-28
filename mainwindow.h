@@ -5,7 +5,6 @@
 #include <QApplication>
 #include <QTextEdit>
 #include <iostream>
-#include <windows.h>
 #include <iostream>
 #include <math.h>
 #include <QtMath>

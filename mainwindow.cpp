@@ -170,7 +170,7 @@ void MainWindow::readData(void)
                 case AO_READ:
                     qDebug() << "Modbus Read";
                     len.istd = uint16_t(ba.at(2));
-                    if(ba.size() == 56)
+                    if(ba.size() == 61)
                     {
                         buff = new char[len.istd];
                         for (int i = 0; i < (len.istd + 5); i++)
